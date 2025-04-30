@@ -45,3 +45,10 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
+
+gem "dry-validation"
+gem "graphql"
+gem "graphql-batch"
+gem "sidekiq"
+gem "redis"
+gem "active_model_serializers"
