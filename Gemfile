@@ -44,6 +44,9 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  # GraphiQL interface for GraphQL API
+  gem "graphiql-rails"
 end
 
 gem "dry-validation"
